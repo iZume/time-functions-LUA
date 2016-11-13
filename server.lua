@@ -118,6 +118,10 @@ function getDateInAdd(_day, _month, _year, days, months, years)
     return unixToDate(dateToUnix(_day, _month, _year) + ((days * (60 * 60 * 24)) + (months * (60 * 60 * 24 * 30)) + (years * (60 * 60 * 24 * 30 * 12)))); 
 end
 
+--[[
+
+    Examples
+    
 addEventHandler("onResourceStart", root, function()
     outputServerLog(getWeekDay(13, 11, 2016));
 
@@ -139,4 +143,4 @@ addEventHandler("onResourceStart", root, function()
 
     outputServerLog(getWeekDay(d, m, y))
 
-end)
+end)]]
