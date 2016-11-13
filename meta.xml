@@ -1,0 +1,25 @@
+<meta>
+	<info author="Chainsaw" name="time" version="1.0" type="script" description="Time functions"/>
+	<settings>
+		<!-- Supported languages:
+				English: 1
+				Español: 2
+		-->
+		<setting name="*Lang" value="[2]"/> 
+
+	</settings>
+
+	<script src="server.lua" type="server"/>
+
+	<!-- Functions -->
+	<export function="getWeekDay"></export>	
+	<export function="getMonthDays"></export>	
+	<export function="getMonthName"></export>	
+	<export function="getYearDays"></export>	
+	<export function="getRemaningDaysInYear"></export>	
+	<export function="getSpentsDaysInYear"></export>	
+	<export function="dateToUnix"></export>	
+	<export function="unixToDate"></export>	
+	<export function="getDateInAdd"></export>
+
+</meta>
